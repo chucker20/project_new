@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: glacierpath-jobs
+    env: static
+    buildCommand: echo "No build command needed"
+    staticPublishPath: ./build
+    routes:
+      - type: redirect
+        source: /old-page
+        destination: /new-page
+        statusCode: 301
+    headers:
+      - path: /sitemap.xml
+        name: Cache-Control
+        value: max-age=86400
+      - path: /robots.txt
+        name: Cache-Control
+        value: max-age=86400
