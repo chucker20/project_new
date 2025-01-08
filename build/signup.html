@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlacierPath Online Job Opportunities</title>
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/cf681ae31a.js" crossorigin="anonymous"></script>
+    
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- The Navigation -->
+    <my-nav></my-nav>
+
+    <main class="max-w-[80%] mx-auto">
+
+        <div class="bg-white p-8 rounded-lg shadow-lg w-full md:max-w-[40%] mx-auto">
+            <h1 class="text-3xl font-bold text-center text-indigo-600 mb-6">Get Job Opportunities</h1>
+            <p class="text-center text-gray-600 mb-8">Provide your email and phone number to receive the latest job alerts.</p>
+            
+            <form id="jobForm" action="https://api.web3forms.com/submit" method="POST" class="flex flex-col space-y-6">
+                <input type="hidden" name="access_key" value="e5e5453d-4239-433b-92c9-cfcb7f7cce95">
+                
+                <!-- Email Input -->
+                <div class="flex flex-col">
+                    <label for="email" class="text-lg font-bold text-gray-700">Email Address</label>
+                    <input type="email" id="email" name="email" required 
+                           class="mt-1 p-3 border border-gray-300 rounded-md bg-white shadow-sm focus:ring focus:ring-indigo-300" 
+                           placeholder="example@email.com">
+                </div>
+    
+                <!-- Phone Input -->
+                <div class="flex flex-col">
+                    <label for="phone" class="text-lg font-bold text-gray-700">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" required
+                           class="mt-1 p-3 border border-gray-300 rounded-md bg-white shadow-sm focus:ring focus:ring-indigo-300" 
+                           placeholder="+254 700 123456">
+                </div>
+    
+                <!-- Submit Button -->
+                <div class="flex justify-center">
+                    <button type="submit" 
+                            class="px-6 py-3 bg-indigo-500 text-white font-medium rounded-md hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2">
+                        Submit Details
+                    </button>
+                </div>
+            </form>
+    </main>
+    
+
+    <!-- The footer -->
+    <my-footer></my-footer>
+    <script src="loaded.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
