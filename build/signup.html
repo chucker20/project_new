@@ -61,6 +61,22 @@
     <!-- The footer -->
     <my-footer></my-footer>
     <script src="loaded.js"></script>
+
+    <script>
+        const form = document.getElementById('jobForm');
+
+        form.addEventListener('submit', function(event) {
+        // Optional: Perform form validation or other checks here
+        
+        // Allow the form to submit naturally
+        setTimeout(() => {
+            // Clear all input fields and textareas after submission
+            const inputs = form.querySelectorAll('input, textarea');
+            inputs.forEach(input => input.value = '');
+        }, 10);  // Small delay to ensure submission completes first
+        });
+
+    </script>
     <script src="script.js"></script>
 </body>
 </html>
