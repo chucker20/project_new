@@ -91,7 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
 // Form generation function
 function generateForm() {
     return `
-        <form id="jobForm" class="mt-4 p-4 bg-gray-100 rounded-lg shadow-md " action="https://formsubmit.co/netchucker254@gmail.com" method="POST">
+        <form id="jobForm" class="mt-4 p-4 bg-gray-100 rounded-lg shadow-md " action="https://formspree.io/f/mdkkpzaa"
+  method="POST">
             <h3 class="text-lg font-semibold mb-2">Sign Up</h3>
             <div class="mb-4">
                 <label for="email" class="block text-sm font-medium">Email</label>

@@ -33,11 +33,13 @@ class myFooter extends HTMLElement {
             <div class="md:flex flex-col space-y-2 hidden items-center justify-center">
                 <h1 class="text-3xl font-bold text-white"><a href="#hero">GlacierPath</a></h1>
                 <p class="text-white">Stay updated with our latest news and offers. Enter your email to subscribe to our newsletter.</p>
-                <div class="flex items-center">
-                  <input class="p-3 border-none outline-none"  type="email" required placeholder="Enter Email" >
+                <form class="flex items-center" action="https://formspree.io/f/mdkkpzaa"
+  method="POST">
+
+                  <input class="p-3 border-none outline-none" name="sub_Email"  type="email" required placeholder="Enter Email" >
                   <button class="bg-indigo-500 border-none py-2 px-3"><i class="fas fa-arrow-right text-white text-2xl"></i></button>
                
-                </div>
+                </form>
                 
 
             </div>
