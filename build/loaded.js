@@ -58,7 +58,7 @@ class myFooter extends HTMLElement {
                 <h3 class="text-lg font-bold text-white">Contact Us</h3>
                 <a class="text-white hover:text-gray-300" href="mailto:netchucker254@gmail.com">netchucker254@gmail.com</a>
             
-                <a class="text-white hover:text-gray-300" href="tel: +254 51305530">Phone: +254 51305530</a>
+                <a class="text-white hover:text-gray-300" href="tel: +254 712491052">Phone: +254 712491052</a>
               
                 <p class="text-white">Location: Nairobi, Kenya</p>
             </div>
