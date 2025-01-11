@@ -3,7 +3,7 @@ class myNav extends HTMLElement {
         this.innerHTML = `
           <nav class="bg-slate-100 shadow-lg shadow-indigo-500 py-4 top-0 sticky z-10 ">
               <div class="max-w-[90%] md:max-w-[80%] mx-auto flex items-center justify-between">
-                  <h1 class="text-2xl font-bold"><a class="text-indigo-600" href="index.html#hero">🧊GlacierPath</a></h1>
+                  <h1 class="text-2xl font-bold"><a class="text-indigo-600" href="https://glacierpath-jobs.onrender.com/">🧊GlacierPath</a></h1>
                   <ul class="navbar hidden nav_b:flex items-center shadow-2xl shadow-red-500  flex-col bg-indigo-500 nav_b:bg-transparent  nav_b:h-auto max-w-[75%] nav_b:max-w-auto w-full nav_b:w-auto nav_b:flex-row absolute top-0 right-0 mt-[70px] nav_b:mt-0 nav_b:space-x-7 nav_b:static">
                       <li class="flex justify-center border border-t-white w-full nav_b:w-auto nav_b:border-none p-4 nav_b:p-0  nav_b:mt-0"><a class="text-white nav_b:text-indigo-700  font-semibold text-xl  flex items-center w-full justify-center" href="index.html#about">About</a></li>
                       <li class="flex justify-center border border-t-white w-full nav_b:w-auto nav_b:border-none p-4 nav_b:p-0  nav_b:mt-0"><a class="text-white nav_b:text-indigo-700  font-semibold text-xl  flex items-center w-full justify-center" href="index.html#jobs">Jobs</a></li>
